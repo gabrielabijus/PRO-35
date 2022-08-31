@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+<!-- O SDK JS do Firebase principal é sempre necessário e deve ser listado primeiro -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+
+<script>
+ // Configuração do Firebase do seu aplicativo da web
+ const firebaseConfig = {
+  apiKey: "AIzaSyDKJ-D2j4ur2QKbpae8GFWfoehv6pASzKM",
+  authDomain: "pro-35-5abd7.firebaseapp.com",
+  databaseURL: "https://pro-35-5abd7-default-rtdb.firebaseio.com",
+  projectId: "pro-35-5abd7",
+  storageBucket: "pro-35-5abd7.appspot.com",
+  messagingSenderId: "94102023134",
+  appId: "1:94102023134:web:4fb0831c593667eb900b4f"
+};
+  
+  firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
